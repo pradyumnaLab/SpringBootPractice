@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\pk\Downloads\Eureka-Server"/>
 			<item value="C:\Users\pk\Desktop\JAVA PRACTICE\Spring Boot\movie-catalog-service"/>
 			<item value="C:\Users\pk\Desktop\JAVA PRACTICE\Spring Boot\rating-data-service"/>
 			<item value="C:\Users\pk\Desktop\JAVA PRACTICE\Spring Boot\movie-info-service"/>
