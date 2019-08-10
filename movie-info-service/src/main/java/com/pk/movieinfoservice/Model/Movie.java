@@ -4,6 +4,8 @@ public class Movie {
 	
 	private int movieId;
 	private String name;
+	private String releaseYear;
+	
 	public int getMovieId() {
 		return movieId;
 	}
@@ -16,12 +18,20 @@ public class Movie {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Movie(int movieId, String name) {
+	
+	public String getReleaseYear() {
+		return releaseYear;
+	}
+	public void setReleaseYear(String releaseYear) {
+		this.releaseYear = releaseYear;
+	}
+	public Movie(int movieId, String name, String releaseYear) {
 		super();
 		this.movieId = movieId;
 		this.name = name;
+		this.releaseYear=releaseYear;
 	}
 	
-	
+	public Movie() {};
 
 }
